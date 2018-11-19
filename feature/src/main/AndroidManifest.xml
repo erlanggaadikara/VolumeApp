@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.itungan.erlangga.volumecalc.feature">
+
+    <application>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".kubus" />
+        <activity android:name=".balok" />
+        <activity android:name=".prismasegi3" />
+        <activity android:name=".limasegi3" />
+        <activity android:name=".limassegi4" />
+        <activity android:name=".tabung" />
+        <activity android:name=".bola" />
+        <activity android:name=".kerucut"></activity>
+    </application>
+
+</manifest>
